@@ -13,6 +13,7 @@ Nossa aplicação conecta prestadores de serviços a clientes de forma simples e
 ## 5. Definição do Produto
 
 - CRUD API
+- Aplicação Web
 
 ## 6. Requisitos do Sistema
 
@@ -29,6 +30,11 @@ Nossa aplicação conecta prestadores de serviços a clientes de forma simples e
 ## 10. Riscos do Projeto
 
 ## 11. Tomada de Decisões
+As linguagens escolhidas foram Java e Angular.
+
+- Java: Familiaridade com a linguagem, utilização do Spring Boot<br>
+- Angular: Possui boa integração com o Java, utilizando mesmo paradigma<br>
+- Postgres: Banco relacional de uso gratuito<br>
 
 ## 12. Organização da Arquitetura MVC
 
