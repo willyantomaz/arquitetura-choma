@@ -30,6 +30,6 @@ public class Provider {
     private List<Job> jobs = new ArrayList<>();
 
     @OneToOne(mappedBy = "serviceProvider", cascade = CascadeType.ALL)
-    private Schedule schedule;
+    private Schedule schedule = new Schedule();
 }
 

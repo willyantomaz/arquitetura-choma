@@ -1,7 +1,5 @@
 package system.scheduling.model.util;
 
-import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,9 +9,11 @@ import java.util.List;
 public abstract class CrudController<T, ID, S extends CrudService<T, ID>> {
 
     protected final S service;
+    private final Class<T> entityClass;
 
-    public CrudController(S service) {
+    public CrudController(S service, Class<T> entityClass) {
         this.service = service;
+        this.entityClass = entityClass;
     }
 
     @PostMapping

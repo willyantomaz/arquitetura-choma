@@ -10,6 +10,6 @@ import system.scheduling.model.util.CrudController;
 @RequestMapping("/schedules")
 public class ScheduleController extends CrudController<Schedule, Long, ScheduleService> {
     public ScheduleController(ScheduleService service) {
-        super(service);
+        super(service, Schedule.class);
     }
 }

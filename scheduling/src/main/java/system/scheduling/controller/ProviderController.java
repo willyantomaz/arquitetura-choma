@@ -9,7 +9,8 @@ import system.scheduling.model.util.CrudController;
 @RestController
 @RequestMapping("/providers")
 public class ProviderController extends CrudController<Provider, Long, ProviderService> {
+
     public ProviderController(ProviderService service) {
-        super(service);
+        super(service, Provider.class);
     }
 }

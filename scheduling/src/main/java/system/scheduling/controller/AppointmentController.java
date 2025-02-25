@@ -11,6 +11,6 @@ import system.scheduling.model.util.CrudController;
 @RequestMapping("/appointments")
 public class AppointmentController extends CrudController<Appointment, Long, AppointmentService> {
     public AppointmentController(AppointmentService service) {
-        super(service);
+        super(service, Appointment.class);
     }
 }

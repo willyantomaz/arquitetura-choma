@@ -6,6 +6,6 @@ import system.scheduling.model.util.CrudController;
 
 public class JobController extends CrudController<Job, Long, JobService> {
     public JobController(JobService service) {
-        super(service);
+        super(service, Job.class);
     }
 }
