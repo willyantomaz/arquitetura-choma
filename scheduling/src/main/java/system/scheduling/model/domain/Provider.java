@@ -26,10 +26,12 @@ public class Provider {
     @Column(nullable = false)
     private String phone;
 
-    @OneToMany(mappedBy = "serviceProvider", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "provider", fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL)
     private List<Job> jobs = new ArrayList<>();
 
-    @OneToOne(mappedBy = "serviceProvider", cascade = CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.PERSIST)
+    @JoinColumn(name = "schedule_id")
     private Schedule schedule = new Schedule();
 }
 

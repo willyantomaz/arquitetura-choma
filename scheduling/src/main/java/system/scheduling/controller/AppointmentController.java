@@ -1,6 +1,5 @@
 package system.scheduling.controller;
 
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import system.scheduling.model.domain.Appointment;

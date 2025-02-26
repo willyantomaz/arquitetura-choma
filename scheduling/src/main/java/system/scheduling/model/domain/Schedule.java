@@ -17,11 +17,9 @@ public class Schedule {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @OneToOne
-    @JoinColumn(name = "provider_id", nullable = false)
-    private Provider serviceProvider;
-
-    @OneToMany(mappedBy = "schedule", cascade = CascadeType.ALL)
+    @OneToMany
+    @JoinColumn(name = "appointment_id")
     private List<Appointment> appointments = new ArrayList<>();
 }
+
 

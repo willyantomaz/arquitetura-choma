@@ -1,5 +1,6 @@
 package system.scheduling.model.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -29,6 +30,7 @@ public class User {
     private String phone;
 
     @OneToMany(mappedBy = "user")
+    @JsonIgnore
     private List<Appointment> appointments = new ArrayList<>();
 }
 
