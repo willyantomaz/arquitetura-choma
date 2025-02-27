@@ -1,8 +1,9 @@
 package system.scheduling.model.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import system.scheduling.model.enums.AppointmentStatus;
 
 import java.time.LocalDate;
