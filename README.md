@@ -173,6 +173,20 @@ O sistema deve seguir as diretrizes da Lei Geral de Proteção de Dados (LGPD), 
 ## 9. Tendências Tecnológicas
 
 ## 10. Riscos do Projeto
+- Riscos Técnicos:<br>
+Falta de escalabilidade do sistema.<br>
+Problemas de integração entre backend e frontend.<br>
+Vazamento de dados sensíveis.<br>
+Incompatibilidades com certos tipos de dispositivos e navegadores.<br>
+Falhas no processamento de pagamentos e reembolsos.<br>
+- Riscos Operacionais:<br>
+Baixa adesão de prestadores de serviço.<br>
+Dificuldade na retenção de clientes.<br>
+Falta de controle sobre a qualidade dos serviços prestados.<br>
+- Riscos de Negócio:<br>
+Concorrência forte dificultando a entrada no mercado.<br>
+Baixa aceitação do modelo de pagamentos.<br>
+Riscos legais (LGPD, regulamentações, golpes).<br>
 
 ## 11. Tomada de Decisões
 As linguagens escolhidas foram Java e Angular.
