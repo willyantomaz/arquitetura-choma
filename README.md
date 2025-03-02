@@ -266,20 +266,20 @@ A plataforma pode incorporar IA para:
 #### Segurança Cibernética e Privacidade: 
 Com a crescente preocupação com a segurança de dados, a plataforma deve adotar medidas robustas de segurança, como autenticação via JWT, criptografia de dados e conformidade com a LGPD. A implementação de testes de segurança (JUnit e Jasmine/Karma) e a utilização de ferramentas de análise de vulnerabilidades.
 ## 10. Riscos do Projeto
-- Riscos Técnicos:<br>
-Falta de escalabilidade do sistema.<br>
-Problemas de integração entre backend e frontend.<br>
-Vazamento de dados sensíveis.<br>
-Incompatibilidades com certos tipos de dispositivos e navegadores.<br>
-Falhas no processamento de pagamentos e reembolsos.<br>
-- Riscos Operacionais:<br>
-Baixa adesão de prestadores de serviço.<br>
-Dificuldade na retenção de clientes.<br>
-Falta de controle sobre a qualidade dos serviços prestados.<br>
-- Riscos de Negócio:<br>
-Concorrência forte dificultando a entrada no mercado.<br>
-Baixa aceitação do modelo de pagamentos.<br>
-Riscos legais (LGPD, regulamentações, golpes).<br>
+### Riscos Técnicos:<br>
+- Falta de escalabilidade do sistema.<br>
+- Problemas de integração entre backend e frontend.<br>
+- Vazamento de dados sensíveis.<br>
+- Incompatibilidades com certos tipos de dispositivos e navegadores.<br>
+- Falhas no processamento de pagamentos e reembolsos.<br>
+### Riscos Operacionais:<br>
+- Baixa adesão de prestadores de serviço.<br>
+- Dificuldade na retenção de clientes.<br>
+- Falta de controle sobre a qualidade dos serviços prestados.<br>
+### Riscos de Negócio:<br>
+- Concorrência forte dificultando a entrada no mercado.<br>
+- Baixa aceitação do modelo de pagamentos.<br>
+- Riscos legais (LGPD, regulamentações, golpes).<br>
 
 ## 11. Tomada de Decisões
 As linguagens escolhidas foram Java e Angular.
