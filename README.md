@@ -193,7 +193,7 @@ As linguagens escolhidas foram Java e Angular.
 
 - Java: Familiaridade com a linguagem, utilização do Spring Boot<br>
 - Angular: Possui boa integração com o Java, utilizando mesmo paradigma<br>
-- Postgres: Banco relacional de uso gratuito<br>
+- H2: Fácil implementação com spring<br>
 
 ## 12. Organização da Arquitetura MVC
 Para a parte de model foram criadas as seguintes entidades baseadas no funcionamento do projeto, separadas em uma pasta domain:
