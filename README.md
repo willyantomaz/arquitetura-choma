@@ -196,7 +196,17 @@ As linguagens escolhidas foram Java e Angular.
 - Postgres: Banco relacional de uso gratuito<br>
 
 ## 12. Organização da Arquitetura MVC
-
-Definição de arquivos e como serão organizados.
+Para a parte de model foram criadas as seguintes entidades baseadas no funcionamento do projeto, separadas em uma pasta domain:
+- Appointment
+- Category
+- Job
+- Provider
+- Schedule
+- User<br>
+Foram então criadas as services, controllers e repository para o CRUD de cada entidade, e também um genérico que é estendido nessas services e controllers para as partes mais básicas de um crud.
+A parte da view foi feita então contemplando a listagem de uma dessas entidades.
 
 ## 13. Avaliação das Decisões
+A escolha de utilizar o java com spring ajudou para o desenvolvimento da api pelas diversas facilidades que esse framework fornece por exemplo para gerenciar a injeção de dependências no projeto, a simplificação para persistir dados e para futuras implementações de testes. Também foi escolhido pela experiência de parte do grupo trabalhando com java e spring boot, e por conta de ser um framework com uma comunidade bastante ativa o que auxilia para pesquisa caso tiver alguma dúvida sobre o funcionamento do spring.<br>
+Já a escolha do angular foi feita por conta da possibilidade de organizar o projeto com componentes diminuindo a repetição de excessiva de código e também por ser mais fácil de integrar com o java.<br>
+Por enquanto também foi utilizado para o banco de dados o H2 o que ajudou por conta da implementação simples nesse projeto.
