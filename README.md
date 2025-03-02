@@ -25,7 +25,7 @@ Utilizarão a plataforma para buscar prestadores por categoria, localização e 
 ### - Prestadores: 
 Utilizarão a plataforma para criar um perfil profissional, gerenciar sua agenda, confirmar agendamentos e visualizar o histórico de serviços. O prestador poderá atualizar suas informações profissionais a qualquer momento, definir horários de trabalho e dias de folga.
 ## 6. Requisitos do Sistema
-## 6.1 Requisitos Funcionais
+### 6.1 Requisitos Funcionais
 ### 6.1.1 Gerenciamento de Usuários
 ### RF001: 
 O sistema deve permitir o cadastro de clientes e prestadores de serviço com informações pessoais (nome, e-mail, telefone) e profissionais (especialidade, descrição do serviço, localização).<br>
@@ -169,9 +169,102 @@ O sistema deve seguir as diretrizes da Lei Geral de Proteção de Dados (LGPD), 
 - #### Modelo de pagamentos:
   Risco de baixa aceitação do modelo de pagamentos.<br>
 ## 8. Necessidades dos Stakeholders
+### 8.1 Clientes
 
+Os clientes são usuários que buscam serviços variados na plataforma. Suas principais necessidades incluem:
+
+-   Facilidade de uso: Interface intuitiva para encontrar e agendar serviços rapidamente.
+    
+-   Segurança: Garantia de que seus dados estão protegidos, conforme a LGPD.
+    
+-   Avaliações confiáveis: Possibilidade de ver e contribuir com avaliações dos prestadores.
+    
+-   Suporte ágil: Atendimento eficiente em caso de problemas com agendamentos ou pagamentos.
+    
+-   Opções de pagamento flexíveis: Suporte a PIX, cartão de crédito/débito e boleto bancário.
+    
+-   Notificações e lembretes: Receber avisos sobre confirmações, cancelamentos e promoções.
+    
+
+### 8.2 Prestadores de Serviços
+
+Os prestadores são profissionais que utilizam a plataforma para divulgar seus serviços e gerenciar agendamentos. Suas principais necessidades incluem:
+
+-   Visibilidade: Ferramentas para destacar seus serviços e diferenciais.
+    
+-   Gestão eficiente da agenda: Facilidade para definir horários, dias de folga e reagendar atendimentos.
+    
+-   Garantia de pagamento: Mecanismos que assegurem recebimento seguro e rápido.
+    
+-   Feedbacks e avaliações: Permissão para responder avaliações e melhorar a reputação na plataforma.
+    
+-   Histórico de serviços e ganhos: Acompanhamento detalhado das atividades e receitas.
+    
+-   Suporte técnico: Assistência rápida para resolver problemas operacionais.
+    
+
+### 8.3 Administradores da Plataforma
+
+Os administradores são responsáveis por gerenciar o funcionamento da plataforma. Suas principais necessidades incluem:
+
+-   Monitoramento da plataforma: Ferramentas para análise de desempenho e detecção de problemas.
+    
+-   Gerenciamento de usuários: Capacidade de moderar contas, bloquear usuários fraudulentos e garantir a conformidade com as regras.
+    
+-   Segurança e conformidade legal: Implementação de medidas para cumprir a LGPD e evitar vazamentos de dados.
+    
+-   Controle financeiro: Gerenciamento de transações, reembolsos e taxas da plataforma.
+    
+-   Relatórios e métricas: Dados detalhados sobre uso da plataforma, engajamento de clientes e prestadores.
+    
+
+### 8.4 Investidores e Stakeholders Financeiros
+
+Os investidores buscam retorno financeiro e sustentabilidade do negócio. Suas principais necessidades incluem:
+
+-   Crescimento sustentável: Expansão da base de usuários e aumento da receita.
+    
+-   Baixo risco operacional: Garantia de que o modelo de negócios seja viável e seguro.
+    
+-   Métricas de desempenho: Relatórios detalhados sobre engajamento, faturamento e retenção de usuários.
+    
+-   Conformidade legal e regulatória: Garantia de que a plataforma está operando dentro das leis e regulamentos locais.
+    
+
+### 8.5 Parceiros e Fornecedores
+
+Empresas e profissionais que podem fornecer integrações, suporte e serviços adicionais à plataforma. Suas necessidades incluem:
+
+-   Integração eficiente: API e documentação clara para facilitar conexões.
+    
+-   Modelo de parceria vantajoso: Condições comerciais que incentivam a colaboração.
+    
+-   Suporte técnico: Canal de comunicação direto para resolver problemas e dúvidas.
+    
+
+Com base nessas necessidades, o projeto deve priorizar usabilidade, segurança, escalabilidade e conformidade legal para garantir um ecossistema funcional e atrativo para todos os envolvidos.
 ## 9. Tendências Tecnológicas
+Com o crescimento e o amadurecimento do projeto, novas tecnologias poderão ser exploradas a fim de melhorar a experiência do usuário e auxiliar na manutenibilidade do sistema, o tornando mais robusto e versátil.
 
+Algumas das tendências que poderão ser implementadas com o decorrer do projeto incluem:
+
+#### Arquiteturas Serverless e Microsserviços: 
+O uso de Spring Boot no backend sugere uma arquitetura de microsserviços, que se alinha com a tendência de desenvolvimento de aplicações em cloud. Arquiteturas serverless, que complementam microsserviços, permitem escalar componentes individualmente e otimizar custos.
+    
+
+  
+#### Inteligência Artificial e Machine Learning: 
+A plataforma pode incorporar IA para:
+    
+
+-   Recomendação de prestadores: Sugerir prestadores com base nas preferências e histórico do cliente.
+    
+-   Chatbots: Automatizar o primeiro contato com o cliente e responder a perguntas frequentes.
+    
+-   Análise de sentimentos: Avaliar o feedback dos clientes para identificar áreas de melhoria para os prestadores.
+
+#### Segurança Cibernética e Privacidade: 
+Com a crescente preocupação com a segurança de dados, a plataforma deve adotar medidas robustas de segurança, como autenticação via JWT, criptografia de dados e conformidade com a LGPD. A implementação de testes de segurança (JUnit e Jasmine/Karma) e a utilização de ferramentas de análise de vulnerabilidades.
 ## 10. Riscos do Projeto
 - Riscos Técnicos:<br>
 Falta de escalabilidade do sistema.<br>
@@ -193,7 +286,7 @@ As linguagens escolhidas foram Java e Angular.
 
 - Java: Familiaridade com a linguagem, utilização do Spring Boot<br>
 - Angular: Possui boa integração com o Java, utilizando mesmo paradigma<br>
-- H2: Fácil implementação com spring<br>
+- H2: Fácil implementação com Spring<br>
 
 ## 12. Organização da Arquitetura MVC
 Para a parte de model foram criadas as seguintes entidades baseadas no funcionamento do projeto, separadas em uma pasta domain:
@@ -203,10 +296,13 @@ Para a parte de model foram criadas as seguintes entidades baseadas no funcionam
 - Provider
 - Schedule
 - User<br>
-Foram então criadas as services, controllers e repository para o CRUD de cada entidade, e também um genérico que é estendido nessas services e controllers para as partes mais básicas de um crud.
-A parte da view foi feita então contemplando a listagem de uma dessas entidades.
+Foram então criadas as Services, Controllers e Repository para o CRUD de cada entidade, e também um genérico que é estendido nessas Services e Controllers para as partes mais básicas de um CRUD.
+A parte da View foi feita então contemplando a listagem de uma dessas entidades.
 
 ## 13. Avaliação das Decisões
-A escolha de utilizar o java com spring ajudou para o desenvolvimento da api pelas diversas facilidades que esse framework fornece por exemplo para gerenciar a injeção de dependências no projeto, a simplificação para persistir dados e para futuras implementações de testes. Também foi escolhido pela experiência de parte do grupo trabalhando com java e spring boot, e por conta de ser um framework com uma comunidade bastante ativa o que auxilia para pesquisa caso tiver alguma dúvida sobre o funcionamento do spring.<br>
-Já a escolha do angular foi feita por conta da possibilidade de organizar o projeto com componentes diminuindo a repetição de excessiva de código e também por ser mais fácil de integrar com o java.<br>
-Por enquanto também foi utilizado para o banco de dados o H2 o que ajudou por conta da implementação simples nesse projeto.
+A escolha de utilizar o Java com Spring Boot ajudou para o desenvolvimento da API pelas diversas facilidades que esse framework fornece, como por exemplo: <br> 
+- Gerenciar a injeção de dependências no projeto
+- Simplificação para persistir dados e para futuras implementações de testes. 
+- Experiência de parte do grupo trabalhando com Java e Spring Boot, e por conta de ser um framework com uma comunidade ativa, o que auxilia para pesquisa caso apareçam dúvidas sobre o funcionamento do Spring.<br>
+Por fim, escolha do Angular foi feita levando em conta da possibilidade de organizar o projeto com componentes, diminuindo a repetição excessiva de código e também por facilitar a integração com o Java.<br>
+Até o momento está sendo utilizado para o banco de dados o H2, que ajudou na implementação simples para o projeto.
