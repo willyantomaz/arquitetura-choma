@@ -168,6 +168,7 @@ O sistema deve seguir as diretrizes da Lei Geral de Proteção de Dados (LGPD), 
   Dificuldade na retenção de clientes.<br>
 - #### Modelo de pagamentos:
   Risco de baixa aceitação do modelo de pagamentos.<br>
+  
 ## 8. Necessidades dos Stakeholders
 ### 8.1 Clientes
 
@@ -243,6 +244,7 @@ Empresas e profissionais que podem fornecer integrações, suporte e serviços a
     
 
 Com base nessas necessidades, o projeto deve priorizar usabilidade, segurança, escalabilidade e conformidade legal para garantir um ecossistema funcional e atrativo para todos os envolvidos.
+
 ## 9. Tendências Tecnológicas
 Com o crescimento e o amadurecimento do projeto, novas tecnologias poderão ser exploradas a fim de melhorar a experiência do usuário e auxiliar na manutenibilidade do sistema, o tornando mais robusto e versátil.
 
