@@ -5,8 +5,12 @@
 Nossa aplicação conecta prestadores de serviços a clientes de forma simples e eficiente. Profissionais de diversas áreas poderão divulgar seus serviços, enquanto os usuários terão uma plataforma prática para encontrar especialistas e agendar atendimentos com facilidade. O projeto será desenvolvido com a arquitetura MVC, garantindo organização e escalabilidade.
 
 ## 2. Organização dos Componentes do Projeto
+![image](https://github.com/user-attachments/assets/9cf68579-048e-4d25-8209-f333b5fb268e)
+
 
 ## 3. Implementação de uma Funcionalidade
+![image](https://github.com/user-attachments/assets/17fa7715-8d64-45f2-8709-5f9f6d2d71da)
+
 
 ## 4. Como Funciona?
 
