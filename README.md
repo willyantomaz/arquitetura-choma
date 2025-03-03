@@ -14,6 +14,9 @@ Nossa aplicação conecta prestadores de serviços a clientes de forma simples e
 
 ## 4. Como Funciona?
 
+A funcionalidade validateTime verifica se um novo compromisso se sobrepõe a compromissos já agendados para um provedor. Ela obtém todos os compromissos existentes e, utilizando a função isOverlapping, verifica se há algum conflito de horário. Se houver sobreposição, é lançada uma exceção impedindo o agendamento do novo compromisso.
+
+
 ## 5. Definição do Produto
 
 A plataforma conecta prestadores de serviços a clientes de forma simples e eficiente. Profissionais podem divulgar seus serviços, enquanto clientes encontram e agendam especialistas com facilidade. A arquitetura MVC será utilizada para garantir organização e escalabilidade.<br>
