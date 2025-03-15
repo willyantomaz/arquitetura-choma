@@ -298,20 +298,23 @@ As linguagens escolhidas foram Java e Angular.
 - H2: Fácil implementação com Spring<br>
 
 ## 12. Organização da Arquitetura MVC
-Para a parte de model foram criadas as seguintes entidades baseadas no funcionamento do projeto, separadas em uma pasta domain:
+Para a parte da Model, foram criadas as seguintes entidades baseadas no funcionamento do projeto, separadas em uma pasta Domain:
+
 - Appointment
 - Category
 - Job
 - Provider
 - Schedule
-- User<br>
-Foram então criadas as Services, Controllers e Repository para o CRUD de cada entidade, e também um genérico que é estendido nessas Services e Controllers para as partes mais básicas de um CRUD.
-A parte da View foi feita então contemplando a listagem de uma dessas entidades.
+- User
+
+Depois, foram criadas as Services, Controllers e Repository para o CRUD de cada entidade, em conjunto com um genérico que é estendido nessas Services e Controllers para as partes mais básicas de um CRUD. Por fim, a View foi feita contemplando a listagem de uma dessas entidades.
 
 ## 13. Avaliação das Decisões
-A escolha de utilizar o Java com Spring Boot ajudou para o desenvolvimento da API pelas diversas facilidades que esse framework fornece, como por exemplo: <br> 
+A escolha de utilizar o Java com Spring Boot ajudou para o desenvolvimento da API pelas diversas facilidades que esse framework fornece, como por exemplo:
+
 - Gerenciar a injeção de dependências no projeto
-- Simplificação para persistir dados e para futuras implementações de testes. 
-- Experiência de parte do grupo trabalhando com Java e Spring Boot, e por conta de ser um framework com uma comunidade ativa, o que auxilia para pesquisa caso apareçam dúvidas sobre o funcionamento do Spring.<br>
-Por fim, escolha do Angular foi feita levando em conta da possibilidade de organizar o projeto com componentes, diminuindo a repetição excessiva de código e também por facilitar a integração com o Java.<br>
+- Simplificação para persistir dados e para futuras implementações de testes 
+- Experiência de parte do grupo trabalhando com Java e Spring Boot, e por conta de ser um framework com uma comunidade ativa, o que auxilia para pesquisa caso apareçam dúvidas sobre o funcionamento do Spring.
+
+Por fim, escolha do Angular foi feita levando em conta a possibilidade de organizar o projeto com componentes, diminuindo a repetição excessiva de código e por facilitar a integração com o Java.<br>
 Até o momento está sendo utilizado para o banco de dados o H2, que ajudou na implementação simples para o projeto.
