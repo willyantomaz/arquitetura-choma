@@ -20,14 +20,11 @@ jobs:
         distribution: 'temurin'
         cache: 'maven'
 
-    - name: Build with Maven
-      run: |
-          ls ${{ github.workspace }}
 
-    - run: cd ${{ github.workspace }}/scheduling
+    
           
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
+      run: cd ${{ github.workspace }}/scheduling && mvn -B package --file pom.xml
       
     - name: Run Tests
       run: mvn test
