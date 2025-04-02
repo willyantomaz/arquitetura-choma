@@ -149,7 +149,7 @@ O sistema deve exigir que as senhas criadas pelos usuários sigam critérios de 
 ### RNF005 - Compatibilidade: 
 O aplicativo deve ser compatível com as últimas versões de sistemas operacionais Android e iOS, além de ser acessível por navegadores modernos como Chrome, Safari e Firefox.
 ### RNF006 - Usabilidade: 
-O sistema deve garantir que 95% dos usuários consigam completar o processo de agendamento em até 4 etapas simples, com uma interface intuitiva e fácil de navegar para clientes e prestadores de serviços.
+O sistema deve garantir que os usuários consigam completar o processo de agendamento em até 4 etapas simples, com uma interface intuitiva e fácil de navegar para clientes e prestadores de serviços.
 ### RNF007 - Recuperação de Dados: 
 O sistema deve incluir históricos de agendamentos e serviços realizados, juntamente com históricos de transações, permitindo fácil visualização pelo usuário.
 ### RNF008 - Redundância e Tolerância a Falhas:
