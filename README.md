@@ -46,73 +46,73 @@ O cliente (solicitante do serviço) deve poder atualizar suas informações (ide
 O cliente deve poder visualizar o perfil completo do prestador, incluindo avaliações, serviços oferecidos e disponibilidade.<br>
 <br>
 ### 6.1.2 Busca e Filtragem de Prestadores<br>
-### RF005: 
-O cliente deve poder buscar prestadores por nome, categoria de serviço, avaliação e localização.
 ### RF006: 
-O sistema deve exibir uma lista de prestadores com filtros por categoria, avaliação, preço e disponibilidade.
+O cliente deve poder buscar prestadores por nome, categoria de serviço, avaliação e localização.
 ### RF007: 
-O sistema deve exibir a disponibilidade dos prestadores em tempo real, permitindo que o cliente escolha horários adequados.
+O sistema deve exibir uma lista de prestadores com filtros por categoria, avaliação, preço e disponibilidade.
 ### RF008: 
+O sistema deve exibir a disponibilidade dos prestadores em tempo real, permitindo que o cliente escolha horários adequados.
+### RF009: 
 O cliente deve poder favoritar prestadores para acesso rápido no futuro.
 
 ### 6.1.3 Agendamento de Serviços<br>
-### RF009: 
-O cliente deve poder selecionar um prestador, escolher um horário disponível e confirmar o agendamento.
 ### RF010: 
-O prestador deve receber uma notificação sobre um novo agendamento e poder confirmar ou rejeitar a solicitação.
+O cliente deve poder selecionar um prestador, escolher um horário disponível e confirmar o agendamento.
 ### RF011: 
-O sistema deve permitir o cancelamento ou reagendamento de serviços por ambas as partes (cliente e prestador).
+O prestador deve receber uma notificação sobre um novo agendamento e poder confirmar ou rejeitar a solicitação.
 ### RF012: 
-O cliente deve receber uma confirmação do agendamento por e-mail e/ou SMS.
+O sistema deve permitir o cancelamento ou reagendamento de serviços por ambas as partes (cliente e prestador).
 ### RF013: 
+O cliente deve receber uma confirmação do agendamento por e-mail e/ou SMS.
+### RF014: 
 O sistema deve bloquear horários agendados automaticamente para evitar conflitos.
 
 ### 6.1.4 Pagamentos e Transações<br>
-### RF014: 
-O sistema deve oferecer múltiplas formas de pagamento, incluindo PIX, cartão de crédito/débito e boleto bancário.
 ### RF015: 
-O cliente deve poder visualizar o orçamento do serviço antes de confirmar o agendamento.
+O sistema deve oferecer múltiplas formas de pagamento, incluindo PIX, cartão de crédito/débito e boleto bancário.
 ### RF016: 
-O sistema deve gerar recibos automáticos após o pagamento.
+O cliente deve poder visualizar o orçamento do serviço antes de confirmar o agendamento.
 ### RF017: 
-O prestador deve poder configurar preços diferentes para serviços específicos.
+O sistema deve gerar recibos automáticos após o pagamento.
 ### RF018: 
+O prestador deve poder configurar preços diferentes para serviços específicos.
+### RF019: 
 O sistema deve permitir reembolsos em casos de cancelamento, seguindo políticas pré-definidas.
 
 ### 6.1.5 Notificações e Lembretes<br>
-### RF019: 
-O sistema deve enviar notificações em tempo real sobre confirmações, cancelamentos e alterações de agendamentos.
 ### RF020: 
-O cliente e o prestador devem receber lembretes automáticos (por e-mail ou SMS) sobre agendamentos próximos.
+O sistema deve enviar notificações em tempo real sobre confirmações, cancelamentos e alterações de agendamentos.
 ### RF021: 
+O cliente e o prestador devem receber lembretes automáticos (por e-mail ou SMS) sobre agendamentos próximos.
+### RF022: 
 O sistema deve enviar notificações de promoções ou novidades para usuários cadastrados.
 
 ### 6.1.6 Avaliações e Feedback<br>
-### RF022: 
-O cliente deve poder avaliar o serviço prestado com notas (ex.: 1 a 5 estrelas) e comentários.
 ### RF023: 
-O sistema deve exibir a média de avaliações no perfil do prestador.
+O cliente deve poder avaliar o serviço prestado com notas (ex.: 1 a 5 estrelas) e comentários.
 ### RF024: 
-O prestador deve poder responder às avaliações dos clientes.
+O sistema deve exibir a média de avaliações no perfil do prestador.
 ### RF025: 
+O prestador deve poder responder às avaliações dos clientes.
+### RF026: 
 O sistema deve permitir que os clientes editem ou removam suas avaliações dentro de um período limitado.
 
 ### 6.1.7 Gestão de Agenda e Disponibilidade<br>
-### RF026: 
-O prestador deve poder definir seus horários de trabalho e dias de folga.
 ### RF027: 
-O sistema deve permitir que o prestador bloqueie horários indisponíveis manualmente.
+O prestador deve poder definir seus horários de trabalho e dias de folga.
 ### RF028: 
-O cliente deve poder visualizar a agenda do prestador em tempo real.
+O sistema deve permitir que o prestador bloqueie horários indisponíveis manualmente.
 ### RF029: 
+O cliente deve poder visualizar a agenda do prestador em tempo real.
+### RF030: 
 O sistema deve sugerir horários alternativos caso o horário desejado pelo cliente esteja indisponível.
 
 ### 6.1.8 Relatórios e Análises<br>
-### RF030: 
-O prestador deve poder visualizar relatórios de serviços prestados, receitas e avaliações.
 ### RF031: 
-O sistema deve gerar relatórios mensais para o prestador, incluindo métricas de desempenho.
+O prestador deve poder visualizar relatórios de serviços prestados, receitas e avaliações.
 ### RF032: 
+O sistema deve gerar relatórios mensais para o prestador, incluindo métricas de desempenho.
+### RF033: 
 O cliente deve poder visualizar seu histórico de agendamentos e serviços contratados.
 
 ### 6.1.9 Administração e Segurança<br>
