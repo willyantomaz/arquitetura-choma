@@ -2,6 +2,7 @@ package system.scheduling.model.domain;
 
 import jakarta.persistence.*;
 import lombok.*;
+import system.scheduling.interfaces.PersonInterface;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Provider {
+public class Provider implements PersonInterface {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -33,5 +34,12 @@ public class Provider {
     @OneToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "schedule_id")
     private Schedule schedule = new Schedule();
+
+    @Override
+    public String getBasicInfo() {
+        return "Nome: " + this.name + "\n" +
+                "Email: " + this.email + "\n" +
+                "Telefone: " + this.phone;
+    }
 }
 
