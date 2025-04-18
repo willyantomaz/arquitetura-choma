@@ -1,0 +1,6 @@
+Definição da implementação do Design Pattern Strategy 
+Para evitar o acoplamento direto entre a lógica da aplicação e os diferentes gateways de pagamento, vamos aplicar o Design Pattern Strategy. Esse padrão é ideal para situações em que temos várias variações de comportamento que podem ser intercambiáveis — no nosso caso, diferentes maneiras de pagamento conforme o provedor escolhido.
+
+A ideia é que o serviço responsável por iniciar o fluxo de pagamento (por exemplo, ao criar uma ordem ou confirmar um serviço) escolha dinamicamente a estratégia com base no tipo de gateway configurado para o usuário, cliente ou transação.
+
+Essa arquitetura vai permitir que a lógica de integração com novos gateways seja completamente isolada e possa evoluir de forma independente, sem afetar os demais componentes do sistema. Também facilita a testabilidade e a manutenção.
