@@ -318,3 +318,10 @@ A escolha de utilizar o Java com Spring Boot ajudou para o desenvolvimento da AP
 
 Por fim, escolha do Angular foi feita levando em conta a possibilidade de organizar o projeto com componentes, diminuindo a repetição excessiva de código e por facilitar a integração com o Java.<br>
 Até o momento está sendo utilizado para o banco de dados o H2, que ajudou na implementação simples para o projeto.
+
+## 14. Definição da implementação do Design Pattern Strategy (Entrega 7)
+Para evitar o acoplamento direto entre a lógica da aplicação e os diferentes gateways de pagamento, vamos aplicar o Design Pattern Strategy. Esse padrão é ideal para situações em que temos várias variações de comportamento que podem ser intercambiáveis — no  nosso caso, diferentes maneiras de pagamento conforme o provedor escolhido.
+
+A ideia é que o serviço responsável por iniciar o fluxo de pagamento (por exemplo, ao criar uma ordem ou confirmar um serviço) escolha dinamicamente a estratégia com base no tipo de gateway configurado para o usuário, cliente ou transação.
+
+Essa arquitetura vai permitir que a lógica de integração com novos gateways seja completamente isolada e possa evoluir de forma independente, sem afetar os demais componentes do sistema. Também facilita a testabilidade e a manutenção.
