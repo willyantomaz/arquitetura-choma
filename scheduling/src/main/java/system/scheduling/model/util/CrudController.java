@@ -16,6 +16,7 @@ public abstract class CrudController<T, ID, S extends CrudService<T, ID>> {
         this.entityClass = entityClass;
     }
 
+    @CrossOrigin
     @PostMapping
     public ResponseEntity<T> create(@RequestBody T entity) {
         return ResponseEntity.ok(service.save(entity));
@@ -28,16 +29,19 @@ public abstract class CrudController<T, ID, S extends CrudService<T, ID>> {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    @CrossOrigin
     @GetMapping
     public ResponseEntity<List<T>> getAll() {
         return ResponseEntity.ok(service.findAll());
     }
 
+    @CrossOrigin
     @PutMapping("/{id}")
     public ResponseEntity<T> update(@PathVariable ID id, @RequestBody T entity) {
         return ResponseEntity.ok(service.update(id, entity));
     }
 
+    @CrossOrigin
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable ID id) {
         service.delete(id);
